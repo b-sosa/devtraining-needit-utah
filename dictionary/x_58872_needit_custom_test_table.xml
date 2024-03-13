@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="c7bbe5932f788610d99ed2172799b604" extends="task" label="Custom Test Table" max_length="40" name="x_58872_needit_custom_test_table" type="collection">
+    <element audit="true" db_object_id="c7bbe5932f788610d99ed2172799b604" extends="task" label="Custom Test Table" max_length="40" name="x_58872_needit_custom_test_table" type="collection">
         <element display="true" label="New Field 1 (TEST)" max_length="40" name="new_field_1_test" type="integer"/>
         <element label="New Integer" max_length="40" name="new_field_test" type="integer"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
